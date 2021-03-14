@@ -1,7 +1,8 @@
 <template>
   <div class="autocomplete">
     <h1>Contrôle fiscal des contribuables</h1>
-    <input type="text" v-model="query" placeholder="Chercher un contribuable">
+    <label for="search">Chercher un contribuable : </label><br>
+    <input id="search" type="text" v-model="query" placeholder="Taper ici">
     <div 
       class="options" 
       v-for="taxpayer in filteredTaxpayers" 
