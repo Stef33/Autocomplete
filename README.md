@@ -1,4 +1,4 @@
-# browserify-simple
+# Autocomplete
 
 ## Project setup
 ```
